@@ -18,6 +18,8 @@ Or in one line:
 brew install --cask ateymoori/tap/royan-whisper
 ```
 
+> On newer Homebrew, if it says the tap is untrusted, run `brew trust ateymoori/tap` once.
+
 The app is Developer ID–signed and notarized by Apple, so it installs and launches with
 no Gatekeeper warning. Requires macOS 26 (Tahoe) or later.
 
