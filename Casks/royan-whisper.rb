@@ -17,7 +17,7 @@ cask "royan-whisper" do
   homepage "https://royan.se"
 
   # No auto_updates yet (Sparkle not shipped) — `brew upgrade --cask` manages updates.
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "RoyanWhisper.app"
 
