@@ -1,9 +1,9 @@
 cask "lyricglow" do
-  arch arm: "arm64", intel: "x64"
+  arch arm: "arm64", intel: "3d72e5b81ae4eefb9eab66f1f40bf3da97d8f7184bb9d7b2ef25ff6ae67ffc45"
 
-  version "0.7.0"
-  sha256 arm:   "37e4164e4cf6089e16b4746fc92d9af6138f9b7ae855b56929d9e4952a806c63",
-         intel: "61e51b2aff177a196a16f86244318fb4285ee945fad68ec6f988c0c2a96c521d"
+  version "0.8.0"
+  sha256 arm:   "2412e03c5eab2c6491cff997486288bb0bc2d251bea60ae716cd4949714834dd",
+         intel: "3d72e5b81ae4eefb9eab66f1f40bf3da97d8f7184bb9d7b2ef25ff6ae67ffc45"
 
   url "https://github.com/ateymoori/lyricglow/releases/download/v#{version}/LyricGlow-#{arch}.dmg"
   name "LyricGlow"
