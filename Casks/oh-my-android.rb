@@ -7,7 +7,7 @@ cask "oh-my-android" do
   desc "Floating control panel for the Android emulator and devices"
   homepage "https://github.com/ateymoori/oh-my-android"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Oh My Android.app"
 
