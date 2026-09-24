@@ -29,3 +29,15 @@ To update or remove:
 brew upgrade --cask royan-whisper
 brew uninstall --cask royan-whisper
 ```
+
+## Oh My Android
+
+A floating control panel for Google's Android emulator and devices: dark mode, font scale, language,
+TalkBack, network conditions, GPS, screenshots, layout and data inspectors, one click each.
+Open source: [ateymoori/oh-my-android](https://github.com/ateymoori/oh-my-android).
+
+```sh
+brew install --cask ateymoori/tap/oh-my-android
+```
+
+Developer ID–signed and notarized. Requires macOS 26 (Tahoe) or later and an Android SDK.
