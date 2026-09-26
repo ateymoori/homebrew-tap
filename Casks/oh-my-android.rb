@@ -1,6 +1,6 @@
 cask "oh-my-android" do
-  version "0.4.2"
-  sha256 "38c349cb20ee668267b9609727dfa94a7f19792aceada490c37eb95f8d1b2385"
+  version "0.4.3"
+  sha256 "0e935bfbc3a962657836b972ba45fdda0a1349415e9a7d935e974c77bdc202c5"
 
   url "https://github.com/ateymoori/oh-my-android/releases/download/v#{version}/OhMyAndroid-#{version}.zip"
   name "Oh My Android"
@@ -9,8 +9,14 @@ cask "oh-my-android" do
 
   depends_on macos: :tahoe
 
+  auto_updates true
+
   app "Oh My Android.app"
   binary "#{appdir}/Oh My Android.app/Contents/MacOS/ohmyandroid-mcp"
 
-  zap trash: "~/Library/Preferences/se.royan.ohmyandroid.plist"
+  zap trash: [
+    "~/Library/Caches/se.royan.ohmyandroid",
+    "~/Library/HTTPStorages/se.royan.ohmyandroid",
+    "~/Library/Preferences/se.royan.ohmyandroid.plist",
+  ]
 end
