@@ -1,6 +1,6 @@
 cask "oh-my-android" do
-  version "0.4.1"
-  sha256 "cb1ec5f615e22309f8208a1c6e1408eea31fc9c355fc9c7fca9340437cfd4c5c"
+  version "0.4.2"
+  sha256 "38c349cb20ee668267b9609727dfa94a7f19792aceada490c37eb95f8d1b2385"
 
   url "https://github.com/ateymoori/oh-my-android/releases/download/v#{version}/OhMyAndroid-#{version}.zip"
   name "Oh My Android"
