@@ -1,11 +1,11 @@
 cask "oh-my-android" do
-  version "0.4.5"
-  sha256 "2aba67dfd24050c9f19db070edeaefb5fb595c7dfe3b4f84c47a31439fc66178"
+  version "0.4.6"
+  sha256 "4520c67d27b3bbe0f7a69d8e9e48d1449b961cebe557e216e9541c6ec71a0e6e"
 
   url "https://github.com/ateymoori/oh-my-android/releases/download/v#{version}/OhMyAndroid-#{version}.zip"
   name "Oh My Android"
   desc "Control panel and MCP server for the Android emulator and devices"
-  homepage "https://github.com/ateymoori/oh-my-android"
+  homepage "https://royan.se/work/oh-my-android/"
 
   depends_on macos: :tahoe
 
